@@ -15,13 +15,16 @@ Fake 3DEXPERIENCE incident report message generator. Your favorite 3DEXPERIENCE 
 You don't need 3DEXPERIENCE to run the `Minidump.exe` program.  
 Fully portable, no admin rights / setup needed.
 
-If you want to edit the dialog box message, just edit the `Minidump.exe.config` file :
+If you want to edit or deactivate the dialog box message, just edit the `Minidump.exe.config` file :
 
 ```xml
 <applicationSettings>
 	<Minidump.My.MySettings>
 		<setting name="MsgBoxText" serializeAs="String">
 			<value>OOPS ! April fool's joke !</value>
+		</setting>
+		<setting name="ShowMsgBox" serializeAs="String">
+			<value>True</value>
 		</setting>
 	</Minidump.My.MySettings>
 </applicationSettings>
