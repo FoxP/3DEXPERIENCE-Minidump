@@ -1,6 +1,9 @@
 # 3DEXPERIENCE Minidump
 
-> The session needs to be restarted; we apologize for the inconvenience
+> Generating minidump...  
+> > Listing processes...  
+> > > Exiting process...  
+> > > > The session needs to be restarted; we apologize for the inconvenience.
 
 ## About
 Fake 3DEXPERIENCE incident report message generator. Your favorite 3DEXPERIENCE feature, whenever you want !
